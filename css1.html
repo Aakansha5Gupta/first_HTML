@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Styled Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #f0f0f0, #ACB6E5);
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: darkblue;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #444;
+            font-size: 18px;
+        }
+
+        .box {
+            background-color: white;
+            padding: 30px;
+            margin: 80px auto;
+            width: 350px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+            transition: transform 0.3s;
+        }
+
+        /* Hover effect on box */
+        .box:hover {
+            transform: scale(1.05);
+        }
+
+        button {
+            background-color: blue;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        /* Button hover effect */
+        button:hover {
+            background-color: darkblue;
+            transform: scale(1.1);
+        }
+
+        /* Button click effect */
+        button:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Welcome Students</h1>
+        <p>This is a modern webpage designed using HTML and CSS.</p>
+        
+        <!-- Button without JS -->
+        <button>Click Me</button>
+    </div>
+
+</body>
+</html>
